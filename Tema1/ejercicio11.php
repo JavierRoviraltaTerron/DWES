@@ -7,14 +7,14 @@
         <meta charset="UTF-8">
         <title></title>
     </head>
-    <body>
+    <body style="font-family: courier">
         <?php
-            /* Igual que el programa anterior, pero esta vez la pirámide debe 
-             * aparecer invertida, con el vértice hacia abajo.*/
+            /* Igual que el programa anterior, pero esta vez la pirámide estará 
+             * hueca (se debe ver únicamente el contorno hecho con asteriscos).*/
         
             $largo = 5;
         
-            for ($i = ($largo - 1); $i >= 0; $i--) {
+            for ($i = 0; $i < $largo; $i++) {
                 for ($j = ($largo - 1) - $i; $j > 0; $j--) {
                     echo "&nbsp";
                     //echo "_"; //prueba

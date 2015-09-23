@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <title></title>
     </head>
-    <body>
+    <body style="font-family: courier">
         <?php
             /* Escribe un programa que pinte por pantalla una pirámide rellena a 
              * base de asteriscos. La base de la pirámide debe estar formada por 
