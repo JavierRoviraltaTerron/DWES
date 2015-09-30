@@ -15,33 +15,25 @@
         Realiza un programa que resuelva una ecuación de segundo grado (del 
         tipo ax2 + bx + c = 0).
       -->
-      <!--
       <?php
         $a = intval($_GET['a']); //convertir string a int
         $b = intval($_GET['b']);
         $c = intval($_GET['c']);
         
-        $solucion = ((($b * (-1)) + sqrt(pow($b,2) - (4 * $a * $c)))/(2 * $a));
+        $potencia = pow($b,2);
+        $multiplicacion = (4 * $a * $c);
         
-        echo "<p>$a" . "x<sup>2</sup> + " . "$b" . "x + $c = $solucion</p>";
-      ?>
-      -->
-      <?php
-        $a = intval($_GET['a']); //convertir string a int
-        $b = intval($_GET['b']);
-        $c = intval($_GET['c']);
-        $temp1 = $b * $b;
-        $temp2 = (4 * $a * $c);
-        if ($temp1 < $temp2) {
-            echo "Las soluciones de la ecuación son complejas.";
-        } else if ($a == 0) {
-            echo "División entre 0";
+        $solucionPos = (((-$b) + sqrt($potencia - $multiplicacion))/(2 * $a));
+        $solucionNeg = (((-$b) - sqrt($potencia - $multiplicacion))/(2 * $a));
+        
+        //La condición de que "a != 0" se cumple con el min="1" en el formulario
+        if ($potencia < $multiplicacion) {
+            echo "Las soluciones son complejas.";
         } else {
-            echo "solucion 1 = ", ( - $b + sqrt($temp1 - $temp2) ) / - 2 * $a;
-            echo "<br>";
-            echo "solucion 2 = ", ( - $b - sqrt($temp1 - $temp2) ) / - 2 * $a;
+            echo "<p>$a" . "x<sup>2</sup> + " . "$b" . "x + $c = " 
+              . round($solucionPos, 2) . " o " . round($solucionNeg, 2) . "</p>";
         }
-        ?>
+      ?>
     </div>
   </body>
 
