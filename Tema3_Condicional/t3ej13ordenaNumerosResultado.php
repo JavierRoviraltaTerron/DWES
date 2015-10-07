@@ -20,14 +20,14 @@
         $b = $_GET['b'];
         $c = $_GET['c'];
         
-        (($a < $b) && ($b < $c)) ? ($respuesta = "$a  $b  $c") : 
-        ((($a < $c) && ($c < $b)) ? ($respuesta = "$a  $c  $b") :
+        $respuesta = (($a < $b) && ($b < $c)) ? "$a  $b  $c" : 
+        ((($a < $c) && ($c < $b)) ? "$a  $c  $b" :
         
-        (((($b < $a) && ($a < $c)) ? ($respuesta = "$b  $a  $c") :
-        ((((($b < $c) && ($c < $a)) ? ($respuesta = "$b  $c  $a") :
+        (((($b < $a) && ($a < $c)) ? "$b  $a  $c" :
+        ((((($b < $c) && ($c < $a)) ? "$b  $c  $a" :
         
-        (((((($c < $a) && ($a < $b)) ? ($respuesta = "$c  $a  $b") :
-        ($respuesta = "$c  $b  $a")))))))))));
+        (((((($c < $a) && ($a < $b)) ? "$c  $a  $b" :
+        "$c  $b  $a"))))))))));
         
         echo "<p>Desordenado: $a $b $c </p> <p>Ordenado: $respuesta </p>";
       ?>

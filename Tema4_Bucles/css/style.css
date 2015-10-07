@@ -1,0 +1,12 @@
+
+#contenedor {
+    margin: 5% 30%;
+    border-top: 2.5em solid #d46a6a;
+    padding: 1em;
+    background-color: #faa;
+}
+
+img {
+  height: 15px;
+  width: 15px;
+}
