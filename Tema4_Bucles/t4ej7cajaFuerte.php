@@ -25,7 +25,7 @@
       
       
       <?php
-        $claveValida = 1;
+        $claveValida = 1234;
         
         // variables que dependen de si ya han recibido valor del formulario o no
         if (isset($_POST['contadorIntentos'])) {
