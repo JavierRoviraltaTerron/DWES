@@ -1,0 +1,95 @@
+
+#contenedor {
+  margin: 0 30%;
+  border: 0.5em solid #d4b16a;
+  border-radius: 10%;
+  background-color: #ffe3aa;
+  font-family: Courier;
+}
+
+h1 {
+  margin-top: 0.7em;
+  background-color: #d4b16a;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  border-spacing: 2em 0;
+}
+
+table .colapsada tr,td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+#autor {
+  margin-bottom: 1.5em;
+  background-color: #d4b16a;
+  text-align: center;
+  font-style: oblique;
+}
+
+.resaltado {
+  color: red;
+}
+
+.resaltadoAzul {
+  color: blue;
+}
+
+.resaltadoVerde {
+  color: green;
+}
+
+.grados {
+  background: red;
+}
+/*
+table {
+  border: 2px solid;
+}
+*/
+table {
+  border-collapse: collapse;
+}
+
+.separador {
+  border-width: 1px;
+  border-color: black;
+  border-style: none none solid;
+}
+
+table.traduccion tr, td {
+  border-style: none;
+}
+
+.tablero {
+  height: 25em;
+  width: 25em;
+  text-align: center;
+}
+
+table.tablero td {
+  height: 2em;
+  width: 2em;
+  
+}
+
+td img {
+  height: 2em;
+  width: 2em;
+}
+
+.borde {
+  background: #d4b16a;
+}
+
+.fondoNegro {
+  background: black;
+}
+
+.fondoBlanco {
+  background: white;
+}
+
