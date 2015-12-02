@@ -1,0 +1,86 @@
+
+#container {
+  background: yellow;
+  border-radius: 0.2em;
+  margin: auto;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+}
+
+#title {
+  background: grey;
+  border-top-left-radius: 0.1em;
+  border-top-right-radius: 0.1em;
+  color: white;
+  padding: 0.2em 1em;
+}
+      
+#content {
+  background: yellow;
+  border-radius: 0.2em;
+  padding: 1em;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+}
+      
+#author {
+  background: grey;
+  border-bottom-left-radius: 0.1em;
+  border-bottom-right-radius: 0.1em;
+  clear: both;
+  padding: 0.2em 1em;
+}
+      
+.floatLeft { float: left;}
+
+.marginLeft { margin-left: 1em; }
+
+button {
+  background: grey;
+  border-radius: 0.2em; 
+  border: none;
+  color: #fff;
+  padding: 0.1em;
+}
+
+.blueButton {
+  background: blue;
+}
+
+.redButton {
+  background: red;
+}
+
+.orangeButton {
+  background: orange;
+}
+
+.greenButton {
+  background: green;
+}
+
+#buttonPanel {
+  text-align: center;
+}
+
+#cartButton { 
+  border: 3px solid white;
+  border-radius: 0.2em;
+  float: right;
+}
+
+#list tr:first-child, #list tr:nth-child(2) {
+  background: none;
+}
+
+#list tr:nth-child(odd) td {
+  background: orange;
+}
+
+#list tr.backgroundGrey td {
+  background: grey;
+}
+
+.backgroundNone {
+  background: none !important;
+}
