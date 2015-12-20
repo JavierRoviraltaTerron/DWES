@@ -1,0 +1,105 @@
+
+#contenedor {
+  margin: 0 30%;
+  border: 0.5em solid #3c5a87;
+  border-radius: 50em;
+  background-color: #4e6e9e;
+  font-family: Courier;
+  color: white;
+}
+
+h1 {
+  margin: 0.7em 1em 0;
+  border-radius: 50em 50em 0 0;
+  padding: 0 2em;
+  background-color: #3c5a87;
+  text-align: center;
+}
+
+#contenido {
+  margin: 1em 2em 1em;
+}
+
+#autor {
+  margin: 0 2em 1.5em;
+  border-radius: 0 0 50em 50em;
+  padding: 0 2em;
+  background-color: #3c5a87;
+  color: white;
+  text-align: center;
+  font-style: oblique;
+}
+
+table {
+  margin: 0 auto;
+  border-spacing: 2em 0;
+}
+
+table .colapsada tr,td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.resaltado {
+  color: red;
+}
+
+.resaltadoAzul {
+  color: blue;
+}
+
+.resaltadoVerde {
+  color: green;
+}
+
+.grados {
+  background: red;
+}
+/*
+table {
+  border: 2px solid;
+}
+*/
+table {
+  border-collapse: collapse;
+}
+
+.separador {
+  border-width: 1px;
+  border-color: black;
+  border-style: none none solid;
+}
+
+table.traduccion tr, td {
+  border-style: none;
+}
+
+.tablero {
+  height: 25em;
+  width: 25em;
+  text-align: center;
+}
+
+table.tablero td {
+  height: 2em;
+  width: 2em;
+  
+}
+
+td img {
+  height: 2em;
+  width: 2em;
+}
+
+.borde {
+  background: #d4b16a;
+}
+
+.fondoNegro {
+  background: black;
+}
+
+.fondoBlanco {
+  background: white;
+}
+
